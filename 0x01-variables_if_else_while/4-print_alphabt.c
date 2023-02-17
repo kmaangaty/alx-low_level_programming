@@ -4,9 +4,10 @@
 
 #include <stdio.h>
 
-/*
- *  program that prints the alphabet in lowercase, followed by a new line.
- *
+/**
+ *  main - program that prints the alphabet in lowercase,
+ *  followed by a new line.
+ * Return: 0 for the main function.
  */
 int main(void)
 {
@@ -14,9 +15,8 @@ int main(void)
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (letter == 'e' || letter == 'q'){
+		if (letter == 'e' || letter == 'q')
 			putchar(letter);
-		}
 	}
 
 	putchar('\n');

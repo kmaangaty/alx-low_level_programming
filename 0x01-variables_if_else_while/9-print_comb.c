@@ -1,20 +1,39 @@
+/*
+ * this is task 9
+ */
 #include <stdio.h>
 /**
- * program that prints all possible combinations of single-digit numbers.
- */
+ * main - program that prints all possible
+ * combinations of single-digit numbers.
+ * Return: 0 for the main function.
+*/
+
 int main(void)
 {
+
 	int i = '0';
+
 	while (i <= '9')
+
 	{
+
 		putchar(i);
+
 		if (i != '9')
+
 		{
+
 			putchar(',');
+
 			putchar(' ');
+
 		}
+
 		++i;
+
 	}
+
 	putchar('\n');
+
 	return (0);
 }
