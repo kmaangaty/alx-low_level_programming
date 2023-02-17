@@ -1,5 +1,5 @@
 /*
- * this is task 2 
+ * this is task 2
  * c is fun
  */
 
