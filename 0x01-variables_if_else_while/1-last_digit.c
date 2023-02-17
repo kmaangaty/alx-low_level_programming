@@ -1,5 +1,6 @@
 /*
- * this is task 2
+ * this is task 2 
+ * c is fun
  */
 
 #include <stdlib.h>
@@ -8,11 +9,12 @@
 
 
 /**
- * This program will assign a random number
+ * main - This program will assign a random number
  *	 to the variable n each time it is executed
  *
- * main - Return: 0 for the main function.
+ * Return: 0 for the main function.
  */
+
 int main(void)
 {
 	int n;
