@@ -6,8 +6,8 @@
  */
 #include <stdio.h>
 
-/* 
- *main - entry point
+/*
+ * main - entry point
  */
 
 int main(void)
