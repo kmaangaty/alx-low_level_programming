@@ -1,0 +1,43 @@
+/*
+ * This is info about this file
+ * Created By Ahmed Ramadan
+ * ALX student
+ * project 0x02. C - Functions, nested loops
+ */
+
+#include "main.h"
+
+/**
+ * jack_bauer - will run program that prints every minute,
+ * of the day of Jack Bauer, starting from 00:00 to 23:59.
+ * Return: Always 0.
+ */
+
+int jack_bauer(void)
+
+{
+
+	int a, b, c, d;
+
+	for (a = 0; a <= 2; a++)
+	{
+	for (b = 0; b <= 9; b++)
+	{
+	if ((a <= 1 && b <= 9) || (a <= 2 && b <= 3))
+	{
+	for (c = 0; c <= 5; c++)
+	{
+	for (d = 0; d <= 9; d++)
+	{
+	_putchar(a + '0');
+	_putchar(b + '0');
+	_putchar(58);
+	_putchar(c + '0');
+	_putchar(d + '0');
+	_putchar('\n');
+	}
+	}
+	}
+	}
+	}
+}
