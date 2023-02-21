@@ -1,10 +1,4 @@
 #include "main.h"
-/*
- * 1-alphabet.c This is info about this file
- * Created By Ahmed Ramadan
- * ALX student
- * project 0x02. C - Functions, nested loops
- */
 
 /**
  * print_alphabet will run that prints the alphabet,
