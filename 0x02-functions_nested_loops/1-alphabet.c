@@ -1,3 +1,10 @@
+/*
+ * This is info about this file
+ * Created By Ahmed Ramadan
+ * ALX student
+ * project 0x02. C - Functions, nested loops
+ */
+
 #include "main.h"
 
 /**
