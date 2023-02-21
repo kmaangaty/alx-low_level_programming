@@ -5,7 +5,7 @@
  * project 0x02. C - Functions, nested loops
  */
 
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Program entry point
