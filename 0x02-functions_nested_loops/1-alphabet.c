@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_alphabet will run that prints the alphabet,
+ * print_alphabet - will run program that prints the alphabet,
+ * 1-alphapet.c - file,
  * in lowercase,
  * followed by a new line.
- * Return: print_alphabet will always 0
+ * Return: void
  */
 
 void print_alphabet(void)
