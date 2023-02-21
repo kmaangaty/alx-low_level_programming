@@ -7,7 +7,7 @@
  */
 
 /**
- * print_alphabet will run that prints the alphabet
+ * print_alphabet will run that prints the alphabet,
  * in lowercase,
  * followed by a new line.
  * Return: print_alphabet will always 0
