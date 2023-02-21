@@ -16,9 +16,14 @@
 
 int main(void)
 {
-char z[100] = "_putchar\n";
-
-printf("%s", z);
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
 
 return (0);
 }
