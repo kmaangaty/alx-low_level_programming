@@ -13,7 +13,7 @@
  * Return: Always 0.
  */
 
-int jack_bauer(void)
+void jack_bauer(void)
 
 {
 
