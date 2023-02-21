@@ -18,15 +18,15 @@
  void print_alphabet_x10(void)
 
 {
-	char s;
+	char c;
  
-	int i = 0;
+	int x = 0;
  
-	while (i <= 9)
+	while (x <= 9)
  
 	{
  
-	for (s = 'a'; s <= 'z'; s++)
+	for (c = 'a'; c <= 'z'; c++)
  
 	{
  
@@ -36,7 +36,6 @@
  
 	_putchar('\n');
  
-	i++;
- 
+	x++;
 	}
 }
