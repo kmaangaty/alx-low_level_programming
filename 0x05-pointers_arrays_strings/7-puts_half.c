@@ -7,24 +7,29 @@
  * to run the method @str: will be the string to be printed.
  */
 
-void puts_half(char *str) {
+void puts_half(char *str)
+{
 
-    int pointer = 0;
+	int pointer = 0;
 
-    int index;
+	int index;
 
-    while (str[pointer] != '\0') {
-        pointer++;
-    }
-    if (pointer % 2 == 1) {
-        index = (pointer - 1) / 2;
-        index += 1;
-    } else {
-        index = pointer / 2;
-    }
+	while (str[pointer] != '\0')
+		pointer++;
 
-    for (; index < pointer; index++) {
-        _putchar(str[index]);
-    }
-    _putchar('\n');
+	if (pointer % 2 == 1)
+	{
+		index = (pointer - 1) / 2;
+		index += 1;
+	}
+	else
+	{
+		index = pointer / 2;
+	}
+
+	for (; index < pointer; index++)
+	{
+		_putchar(str[index]);
+	}
+	_putchar('\n');
 }

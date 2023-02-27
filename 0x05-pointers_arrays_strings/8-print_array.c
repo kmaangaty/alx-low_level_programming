@@ -9,15 +9,18 @@
  * @n: number of the array elements.
  */
 
-void print_array(int *a, int n) {
+void print_array(int *a, int n)
+{
 
-    int index = 0;
+	int index = 0;
 
-    for (; index < n; index++) {
-        printf("%d", a[index]);
-        if (index != (n - 1)) {
-            printf(", ");
-        }
-    }
-    printf("\n");
+	for (; index < n; index++)
+	{
+		printf("%d", a[index]);
+		if (index != (n - 1))
+		{
+			printf(", ");
+		}
+	}
+	 printf("\n");
 }
