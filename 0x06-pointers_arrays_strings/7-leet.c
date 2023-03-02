@@ -22,6 +22,7 @@ char *leet(char *s)
 
 	while (s[source])
 	{
+		index = 0;
 
 		while (index < length)
 		{
