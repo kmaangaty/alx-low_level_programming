@@ -15,6 +15,7 @@ char *cap_string(char *s)
 
 	while (s[la])
 	{
+		index = 0;
 		while (index < letter_a)
 		{
 			if ((la == 0 || s[la - 1] == sp[index]) && (s[la] >= 97 && s[la] <= 122))
