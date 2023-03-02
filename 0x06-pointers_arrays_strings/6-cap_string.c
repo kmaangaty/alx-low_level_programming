@@ -8,23 +8,21 @@
   */
 char *cap_string(char *s)
 {
-	int letter_index = 0;
+	int la = 0;
 	int letter_a = 13;
 	int index = 0;
 	char sp[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
 
-	while (s[letter_index])
+	while (s[la])
 	{
 		while (index < letter_a)
 		{
-			if (
-				(letter_index == 0 || s[letter_index - 1] == sp[index])
-				&& (s[letter_index] >= 97 && s[letter_index] <= 122))
-				s[letter_index] -= 32;
+			if ((la == 0 || s[la - 1] == sp[index]) && (s[la] >= 97 && s[la] <= 122))
+				s[la] -= 32;
 			index++;
 		}
 
-		letter_index++;
+		la++;
 	}
 
 	return (s);
