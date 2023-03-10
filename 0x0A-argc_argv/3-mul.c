@@ -10,8 +10,8 @@
 int main(int argc, char *argv[])
 {
 	int x;
-    int y;
-    int i;
+	int y;
+	int i;
 
 	if (argc != 3)
 	{
@@ -19,10 +19,10 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-    x = atoi(argv[1]);
-    y = atoi(argv[2]);
+	x = atoi(argv[1]);
+	y = atoi(argv[2]);
 
-    i = x * y;
+	i = x * y;
 
 	printf("%d\n", i);
 
